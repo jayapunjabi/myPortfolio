@@ -1,0 +1,42 @@
+
+.whole{
+    background-color: #343A40;
+    font-family: 'Acme', 'sans-serifs '; 
+    height: 100%;
+    margin-top: 0;
+}
+.fa{
+    color: white;
+}
+
+
+.nav-item:hover{
+    text-shadow: 2px 2px 10px #ffffff;
+
+    filter: dropshadow(color=#ffffff, offx=2, offy=2);
+   
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-family:  'Acme', 'sans-serif';
+
+}
+
+.headers{
+    padding:  1rem 0 ;
+    
+}
+.logo{
+    color:#7510f7;
+    font-weight: bold;
+}
+
+.navbar li{
+    position: relative;
+    
+}
+
+
+
+
