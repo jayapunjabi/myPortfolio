@@ -120,7 +120,18 @@ h2{
   .button:hover{
     color: #7510F7 !important;
     border-color: #7510f7 !important;
+    background-color:transparent;
+    color: #ffffff;
   }
+  
+
+.button:active {
+  background-color: #7510f7;
+  box-shadow: 0 5px rgb(187, 187, 187);
+  transform: translateY(4px);
+  
+  
+}
   
   .button{
     border-radius: 25px;
