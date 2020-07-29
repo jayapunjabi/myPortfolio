@@ -1,0 +1,163 @@
+.whole{
+    background-color: #343A40;
+    font-family: 'Acme', 'sans-serifs '; 
+    
+    
+    
+}
+h1{
+    font-weight:  bold;
+}
+
+h2{
+    font-weight:lighter;
+    font-style: italic;
+    
+}
+
+
+
+
+
+.about{
+    display: block;
+    padding: 5rem 1.5rem;
+    margin-top: 0.2rem;
+    
+    z-index:10;
+
+ 
+}
+
+.title
+{
+    text-align: center;
+    color:#ffffff;
+
+}
+
+
+.subtitle{
+    text-align: center;
+    font-family: 'Amiri','sans-serif';
+    color: #ffffff;
+}
+
+.about.is-primary {
+    background-color: #7510F7;
+    color: #fff;
+}
+
+.about.is-long {
+    padding-bottom: 14rem;
+}
+
+.skills{
+    
+    z-index:11;
+    margin-top:-55px ;
+    padding: 0 2rem;
+}
+.card{
+    display: block;
+   text-align: center;
+   border: solid 0.2px #d6d7d8;
+    margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+
+.head {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+.data {
+    text-align: center;
+    padding-bottom: 20px;
+
+    color: white;
+
+}
+
+.card-img{
+    width: 10%;
+    height: 10%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  
+}
+.card-group{
+    margin-top:0;
+    
+   
+}
+
+.text-center{
+    text-align: center;
+}
+
+  .section1, .section3{
+    padding: 1rem 0;
+    
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .section2{
+    margin-top: 1rem;
+    padding: 1rem 0;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .button:hover{
+    color: #7510F7 !important;
+    border-color: #7510f7 !important;
+  }
+  
+  .button{
+    border-radius: 25px;
+    border:2px solid #7510f7;
+    
+    color: #7510F7;
+    float: center;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    justify-content: space-between;
+    box-shadow: 0 5px rgb(136, 120, 160);
+  }
+  .project_link{
+      color: #7510F7 !important;
+  }
+
+  .project_data{
+    color: #ffffff !important;
+    text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+    img.foot { max-width: 90%; }
+    img.avatar{max-width: 10%;}
+    h2.subtitle{font-size: 20px;}
+    h1.title{font-size: 30px;}
+    h2.title{font-size: 25px;}
+    img.avatar{max-width: 80%;}
+    button.resume{max-width: 80%; margin-left:0.5rem; }
+  }
+  
+  @media screen and (orientation: landscape) {
+    img.foot { max-height: 90%; }
+    img.foot { max-width: 90%; }
+    h2.subtitle{font-size: 22px;}
+    h1.title{font-size: 32px;}
+    h2.title{font-size: 25px;}
+    img.avatar{max-width: 70%;}
+   
+  }
